@@ -26,7 +26,7 @@ Two encoders were used for categorical features to capture complementary informa
 
 > **Best Validation Score:** CatBoost (0.487)
 
-## Final results on Kaggle Competition
+## Final Kaggle Submission
 
 * **F1-macro score:** **0.408**
 * **Leaderboard Position:** 🥈 2nd place
