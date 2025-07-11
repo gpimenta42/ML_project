@@ -2,7 +2,7 @@
 
 [Dataset](https://www.kaggle.com/competitions/to-grant-or-not-to-grant/data) 
 
-## Encoding 
+## Categorical Encoding 
 
 Two encoders were used for categorical features to capture complementary information:
 - **Frequency Encoding**
