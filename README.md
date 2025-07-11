@@ -31,7 +31,9 @@ Two encoders were used for categorical features to capture complementary informa
 * **F1-macro score:** **0.408**
 * **Leaderboard Position:** 🥈 2nd place
   [View Leaderboard](https://www.kaggle.com/competitions/to-grant-or-not-to-grant/leaderboard)
-## EXTRA: Feature importances with SHAP 
+
+
+## SHAP Feature Importances
 
 Each injury type class has its own set of important predictors:
 <img width="958" height="790" alt="image" src="https://github.com/user-attachments/assets/9618c66f-3649-4200-a551-54b1689ec88a" />
