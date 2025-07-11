@@ -12,6 +12,7 @@ Two encoders were used for categorical features to capture complementary informa
 - **Recursive Feature Elimination (RFE)**: selects features that maximized validation F1-macro score with Random Forest Classifier 
 
 <img width="1181" height="423" alt="image" src="https://github.com/user-attachments/assets/167f98f8-ddab-46b4-bec3-cde2278412e4" />
+
 *Note: Image typo — Train set is 2/3, not 1/3*
 
 ## Results 
