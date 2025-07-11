@@ -1,5 +1,7 @@
 # Claim Injury Type prediction 
 
+[Dataset](https://www.kaggle.com/competitions/to-grant-or-not-to-grant/data) 
+
 ## Encoding 
 
 Two encoders were used for categorical features to capture complementary information:
