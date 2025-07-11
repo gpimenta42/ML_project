@@ -31,3 +31,5 @@ Work accidents and Claim Injury Type analysis
 <img width="958" height="790" alt="image" src="https://github.com/user-attachments/assets/9618c66f-3649-4200-a551-54b1689ec88a" />
 
 ## Final results on Kaggle Competition
+
+- **F1-macro: 0.408** (2nd place of the leaderboard)
