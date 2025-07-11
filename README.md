@@ -17,7 +17,7 @@ Used 2 encoders for the categoricals as they gave different informations each
 ## Results 
 | Model                        | Parameters                                                                                                                                    | Train Score | Validation Score |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------------- |
-| **CatBoost**                 | {'iterations': 1000, 'depth': 6, 'boosting\_type': 'Ordered', 'auto\_class\_weights': 'SqrtBalanced', 'loss\_function': 'MultiClassOneVsAll'} | 0.560       | 0.487            |
+| **CatBoost**                 | {'depth': 6, 'auto\_class\_weights': 'SqrtBalanced', 'loss\_function': 'MultiClassOneVsAll'} | 0.560       | 0.487            |
 | **Neural Network**           | {'hidden\_layer\_sizes': (25, 8), 'learning\_rate\_init': 0.01}                                                                               | 0.452       | 0.447            |
 | **Random Forest**            | {'max\_depth': 6, 'class\_weight': 'balanced'}                                                                                                | 0.369       | 0.405            |
 | **Logistic Regression**      | {'C': 1, 'solver': 'lbfgs', 'class\_weight': None}                                                                                            | 0.426       | 0.395            |
