@@ -25,7 +25,7 @@ Used 2 encoders for the categoricals as they gave different informations each
 
 ## Final results on Kaggle Competition
 
-**F1-macro: 0.408** (2nd place on the [leaderboard](https://www.kaggle.com/competitions/to-grant-or-not-to-grant/leaderboard))
+- **F1-macro: 0.408** (2nd place on the [leaderboard](https://www.kaggle.com/competitions/to-grant-or-not-to-grant/leaderboard))
 
 ## EXTRA: Feature importances with SHAP 
 
