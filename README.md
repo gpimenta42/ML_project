@@ -19,7 +19,7 @@ Used 2 encoders for the categoricals as they gave different informations each
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------------- |
 | **CatBoost**                 | {'depth': 6, 'auto\_class\_weights': 'SqrtBalanced', 'loss\_function': 'MultiClassOneVsAll'} | 0.560       | 0.487            |
 | **Neural Network**           | {'hidden\_layer\_sizes': (25, 8), 'learning\_rate\_init': 0.01}                                                                               | 0.452       | 0.447            |
-| **Random Forest**            | {'max\_depth': 6, 'class\_weight': 'balanced'}                                                                                                | 0.369       | 0.405            |
+| **Random Forest**            | {'max\_depth': 6, 'class\_weight': 'balanced'}                                                                                                | 0.429       | 0.405            |
 | **Logistic Regression**      | {'C': 1, 'solver': 'lbfgs', 'class\_weight': None}                                                                                            | 0.426       | 0.395            |
 | **Gaussian NB**              | {'var\_smoothing': 0.1}                                                                                                                       | 0.351       | 0.317            |
 | **OVR Random Forest**        | {'max\_depth': 6, 'class\_weight': 'balanced'}                                                                                                | 0.332       | 0.314            |
