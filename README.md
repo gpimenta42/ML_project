@@ -8,7 +8,7 @@ Used 2 encoders for the categoricals as they gave different informations each
 
 ## Feature Selection 
 
-- Cross correlation dropout 
+- Mean cross-correlation dropout 
 - Recursive Feature Elimination with CV
 
 <img width="1181" height="423" alt="image" src="https://github.com/user-attachments/assets/167f98f8-ddab-46b4-bec3-cde2278412e4" />
