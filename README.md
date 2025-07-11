@@ -15,4 +15,9 @@ Work accidents and Claim Injury Type analysis
 
 ## Results 
 
+
+## Feature importances with SHAP 
+
+<img width="958" height="790" alt="image" src="https://github.com/user-attachments/assets/9618c66f-3649-4200-a551-54b1689ec88a" />
+
 ## Final results on Kaggle Competition
