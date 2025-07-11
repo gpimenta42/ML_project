@@ -4,7 +4,7 @@
 
 Two encoders were used for categorical features to capture complementary information:
 - Frequency Encoding
-- Target Ordinal Encoding 
+- Target Ordinal Encoding: a variant of target encoding, where categories are assigned integer values based on the **ordered mean of the target variable**
 
 ## Feature Selection 
 
