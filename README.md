@@ -26,10 +26,11 @@ Work accidents and Claim Injury Type analysis
 | **Stacking (CatBoost, NB)**  | {'C': 1, 'multi\_class': 'ovr', 'class\_weight': 'balanced'}                                                                                  | 0.455       | 0.434            |
 
 
-## Feature importances with SHAP 
-
-<img width="958" height="790" alt="image" src="https://github.com/user-attachments/assets/9618c66f-3649-4200-a551-54b1689ec88a" />
-
 ## Final results on Kaggle Competition
 
 - **F1-macro: 0.408** (2nd place of the leaderboard)
+
+
+## EXTRA: Feature importances with SHAP 
+
+<img width="958" height="790" alt="image" src="https://github.com/user-attachments/assets/9618c66f-3649-4200-a551-54b1689ec88a" />
