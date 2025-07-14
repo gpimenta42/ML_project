@@ -1,8 +1,20 @@
 # Claim Injury Type prediction 
 
 [Dataset](https://www.kaggle.com/competitions/to-grant-or-not-to-grant/data) 
+## Target Classes
 
-## Preprocessing 
+| Class | Description         |
+|-------|---------------------|
+| 0     | Non-Comparticipated |
+| 1     | Canceled            |
+| 2     | MedOnly             |
+| 3     | Temp                |
+| 4     | PPD                 |
+| 5     | PPDNSL              |
+| 6     | PTD                 |
+| 7     | Death               |
+
+---## Preprocessing 
 ### Feature Engineering
 ### Data preparation  
 - Missing data: Mean or outlier imputation 
