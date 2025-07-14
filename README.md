@@ -12,6 +12,7 @@
 Two encoders were used for non-target categorical features to capture complementary information:
 - **Frequency Encoding**
 - **Target Ordinal Encoding**: a variant of target encoding, where categories are assigned integer values based on the ordered mean of the target variable 
+
 For target: 
 - **Ordinal Encoding** 
 ## Feature Selection 
