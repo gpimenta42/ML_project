@@ -46,6 +46,5 @@ Two encoders were used for non-target categorical features to capture complement
 Each injury type class has its own set of important predictors:
 
 *(See visual for detailed breakdown)*
-<img width="958" height="790" alt="image" src="https://github.com/user-attachments/assets/9618c66f-3649-4200-a551-54b1689ec88a" />
 <img width="1446" height="1182" alt="Screenshot 2025-07-14 181201" src="https://github.com/user-attachments/assets/b48d47d3-0b28-4195-845d-92ae26ba21d4" />
 
