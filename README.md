@@ -7,14 +7,16 @@
 |-------|---------------------|
 | 0     | Non-Comparticipated |
 | 1     | Canceled            |
-| 2     | MedOnly             |
-| 3     | Temp                |
-| 4     | PPD                 |
-| 5     | PPDNSL              |
-| 6     | PTD                 |
+| 2     | Medical Only             |
+| 3     | Temporary                |
+| 4     | Permanent Partial Disability (PPD)                 |
+| 5     | Permanent Partial Disability Non-Schedule Loss (PPDNSL)              |
+| 6     | Permanent Total Disability (PTD)                 |
 | 7     | Death               |
 
----## Preprocessing 
+---
+
+## Preprocessing 
 ### Feature Engineering
 ### Data preparation  
 - Missing data: Mean or outlier imputation 
