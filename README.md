@@ -2,12 +2,18 @@
 
 [Dataset](https://www.kaggle.com/competitions/to-grant-or-not-to-grant/data) 
 
-## Categorical Encoding 
-
-Two encoders were used for categorical features to capture complementary information:
+## Preprocessing 
+### Feature Engineering
+- New features: 
+### Missing data, outliers 
+- Mean or outlier imputation
+- Manual bounding 
+### Categorical encoding 
+Two encoders were used for non-target categorical features to capture complementary information:
 - **Frequency Encoding**
-- **Target Ordinal Encoding**: a variant of target encoding, where categories are assigned integer values based on the ordered mean of the target variable
-
+- **Target Ordinal Encoding**: a variant of target encoding, where categories are assigned integer values based on the ordered mean of the target variable 
+For target: 
+- **Ordinal Encoding** 
 ## Feature Selection 
 
 - **Mean cross-correlation dropout**: drops features with high mean correlation with other features 
@@ -17,7 +23,7 @@ Two encoders were used for categorical features to capture complementary informa
 
 *Note: Image typo — Train set is 2/3, not 1/3*
 
-## Results 
+## Model selection and hyperparameter tuning 
 | **Model**                | **Parameters**                                                                   | **Train Score** | **Mean Validation Score** |
 | ------------------------ | -------------------------------------------------------------------------------- | --------------- | -------------------- |
 | **CatBoost**             | `depth=6`, `auto_class_weights=SqrtBalanced`, `loss_function=MultiClassOneVsAll` | **0.560**       | **0.487**            |
