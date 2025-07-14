@@ -44,13 +44,13 @@ Two encoders were used for non-target categorical features to capture complement
 ## SHAP Feature Importances
 
 Most Important Features Influencing Claim Severity:
-- Wage: Higher wages are generally associated with higher claim values.
-- Days to First Hearing: A shorter time to the first hearing often correlates with more severe claims.
-- Attorney Involvement: Claims involving attorneys tend to be of higher severity.
-- IME-3 Count: A higher number of IME-3 evaluations is associated with increased claim severity.
-- Missing C-3 Form: The absence of the C-3 form is often linked to fatal claims, as deceased individuals cannot complete the form.
-- Part of Body Injured: Certain body parts are more commonly associated with fatal or severe injuries.
-- Accident–Assembly Gap (Days): A long delay between the accident and the corresponding result in canceled claims.
+- **Wage**: Higher wages are generally associated with higher claim values.
+- **Days to First Hearing**: A shorter time to the first hearing often correlates with more severe claims.
+- **Attorney Involvement**: Claims involving attorneys tend to be of higher severity.
+- **IME-3 Count**: A higher number of IME-3 evaluations is associated with increased claim severity.
+- **Missing C-3 Form**: The absence of the C-3 form is often linked to fatal claims, as deceased individuals cannot complete the form.
+- **Part of Body Injured**: Certain body parts are more commonly associated with fatal or severe injuries.
+- **Accident–Assembly Gap (Days)**: A long delay between the accident and the corresponding result in canceled claims.
   
 *(See visual for detailed breakdown)*
 <img width="1446" height="1182" alt="Screenshot 2025-07-14 181201" src="https://github.com/user-attachments/assets/b48d47d3-0b28-4195-845d-92ae26ba21d4" />
