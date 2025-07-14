@@ -4,10 +4,9 @@
 
 ## Preprocessing 
 ### Feature Engineering
-- New features: 
-### Missing data, outliers 
-- Mean or outlier imputation
-- Manual bounding 
+### Data preparation  
+- Missing data: Mean or outlier imputation 
+- Outliers: Domain-specific  
 ### Categorical encoding 
 Two encoders were used for non-target categorical features to capture complementary information:
 - **Frequency Encoding**
